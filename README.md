@@ -1,6 +1,5 @@
 # ⚽ AI Football Referee
 
-![AI Referee](https://i.imgur.com/8a13g1h.png)
 
 **AI Football Referee** is a computer vision system designed to assist football referees in analyzing plays. It uses deep learning to detect fouls, determine yellow/red cards, and identify penalties based on the official IFAB Laws of the Game.
 
