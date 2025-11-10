@@ -83,20 +83,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure API Key (Optional)
-
-To enable the Goalkeeper Data Collector with real-time data, you need an API key from API-Football.
-
-1.  Get a free API key at [api-football.com](https://www.api-football.com/). The free plan provides 100 requests per day.
-2.  Set the API key as an environment variable:
-
-```bash
-export API_FOOTBALL_KEY="your_api_key_here"
-```
-
-If you skip this step, the system will fall back to web scraping and then estimated data.
-
-### 5. Run the Application
+### 4. Run the Application
 
 ```bash
 python app.py
